@@ -1,6 +1,6 @@
 namespace mc.CodeAnalysis
 {
-    class Lexer
+    internal sealed class Lexer
     {
         private readonly string _text;
         private int _position;
@@ -24,7 +24,7 @@ namespace mc.CodeAnalysis
         {
             _position++;
         }
-        public SyntaxToken NextToken()
+        public SyntaxToken Lex()
         {
               // numbers
               // + - * / ( )

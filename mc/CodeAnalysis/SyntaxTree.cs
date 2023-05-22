@@ -1,6 +1,6 @@
 namespace mc.CodeAnalysis
 {
-    sealed class SyntaxTree
+    public sealed class SyntaxTree
     {
         public ExpressionSyntax Root { get; }
         public SyntaxToken EndOfFileToken { get; }

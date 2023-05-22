@@ -1,6 +1,6 @@
 namespace mc.CodeAnalysis
 {
-    sealed class ParenthesizedExpressionSyntax : ExpressionSyntax
+    public sealed class ParenthesizedExpressionSyntax : ExpressionSyntax
     {
         
         public override SyntaxKind Kind => SyntaxKind.ParenthesizedExpression;

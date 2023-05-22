@@ -1,6 +1,6 @@
 namespace mc.CodeAnalysis
 {
-    enum SyntaxKind
+    public enum SyntaxKind
     {
         NumberToken,
         WhitespaceToken,
@@ -14,7 +14,8 @@ namespace mc.CodeAnalysis
         EndOfFileToken,
         NumberExpression,
         BinaryExpression,
-        ParenthesizedExpression
+        ParenthesizedExpression,
+        LiteralExpression
     }
 
 

@@ -1,4 +1,4 @@
-namespace mc.CodeAnalysis
+namespace mc.CodeAnalysis.Syntax
 {
     public sealed class BinaryExpressionSyntax : ExpressionSyntax
     {

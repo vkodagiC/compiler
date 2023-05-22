@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 using mc.CodeAnalysis;
+using mc.CodeAnalysis.Syntax;
 
 namespace mc
 {

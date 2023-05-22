@@ -1,4 +1,4 @@
-namespace mc.CodeAnalysis
+namespace mc.CodeAnalysis.Syntax
 {
     internal sealed class Lexer
     {
